@@ -1,0 +1,78 @@
+html,
+body {
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
+  line-height: 22px;
+  scroll-behavior: smooth;
+}
+h1,
+h2,
+h3 {
+  font-family: "Pacifico", cursive;
+}
+/* Imagen y nombre de la empresa */
+.hero {
+  background: url(imagenes/banner.jpg);
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  margin: 0 auto;
+}
+.hero h1 {
+  margin: 0 auto;
+  font-size: 40px;
+  display: flex;
+  background: #d9d9d9;
+  opacity: 50%;
+  height: 120px;
+  width: max-content;
+  align-items: center;
+  border: 5px solid grey;
+}
+/* Para los titulos de cada sección */
+.titulo-de-seccion h2 {
+  font-size: 28px;
+}
+.b-color {
+  background-color: #d3d3d321;
+}
+h3, h4{
+  font-size: 20px;
+}
+/* Sección quienes somos */
+.contenedor-quienes-somos {
+  background-image: url(imagenes/pan-bajo.jpeg);
+
+  background-size: cover;
+}
+.contenedor-informacion {
+  width: 230px;
+  height: 230px;
+  background-color: #d3d3d35c;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 30px;
+}
+.info-destacada {
+  color: red;
+  font-weight: bolder;
+}
+/* Iconos locación, telefono, mail */
+.bi-telephone,
+.bi-telephone,
+.bi-envelope,
+::before {
+  font-size: 50px;
+}
+/* FOOTER */
+.icon {
+  font-family: "Bootstrap-icons";
+}
+.icon .btn {
+  background-color: grey;
+  border: none;
+}
+
+.fin {
+  color: lightgray;
+}
